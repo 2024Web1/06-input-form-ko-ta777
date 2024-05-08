@@ -12,7 +12,7 @@
     <h4>0j02004 片岡幸太</h4>
     <p>ラジオボタン</p>
     <?php
-    echo '<p>あなたの好きな果物は、' . $_POST[fruit] . 'ですね。</p>';
+    echo '<p>あなたの好きな果物は、' . $_POST['fruit'] . 'ですね。</p>';
     ?>
     <a href="radio.html">戻る</a>
 </body>
